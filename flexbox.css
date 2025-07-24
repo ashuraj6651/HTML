@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background: rgba(137, 43, 226, 0.844);
+}
+
+.container{
+    border: 2px solid white;
+    width: 80vw;
+    height: 50vh;
+    margin: 40px;
+    /* flex-box stuffs is here... */
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: start; */
+    /* flex-wrap: nowrap; */
+    /* align-content:flex-end ; */
+    /* align-items: center; */
+    /* flex-grow: 1; */
+
+
+}
+.special{
+    /* flex-shrink: 2; */
+    flex-grow: 2;
+
+}
+
+.container .child{
+    height: 40px;
+    width: 40px;
+    background-color: crimson;
+    text-align: center;
+    margin: 5px;
+}
