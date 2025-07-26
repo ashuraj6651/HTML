@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(164, 247, 252);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+.s{
+    background-color: crimson;
+    height: calc(100px + 100px);
+    width: calc(200px - 20px);
+    padding: calc(20px * 2);
+    border-radius: 20px calc(40px/2) 20px calc(10px*2);
+    box-shadow: 5px 1px 10px black;
+    text-align: center;
+    text-wrap: wrap;
+    font-style: italic;
+    font-size: larger;
+    color: white;
+}
