@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+}
+
+body{
+    color: bisque;
+}
+
+.container{
+    background: rgba(128, 128, 128, 0.288);
+    width: 100%;
+    height: 500px;
+
+}
+
+.d{
+    width: 100px;
+    height: 100px;
+}
+
+.one{
+    background: teal;
+    position: relative;
+    left: 100px;
+    right: 20px;
+    /* relative : it will take space and also it will not leave it's place... */
+}
+
+.two{
+    background: yellowgreen;
+    position: absolute;
+    left:200px;
+    /* absolute : it will leaves it place and then it can be moved to any part of the page... */
+}
+
+.three{
+    background: rgba(128, 0, 128, 0.501);
+    position: fixed;
+    top: 00px;
+    width: 100vw;
+    /* fixed : it fixed the position of div and we can make navigation panel by use of this... */
+}
+
+.four{
+    background-color: brown;
+    position: sticky;
+    top: 90px;
+    /* sticky : this will move according to user scroll... for ex it its set on 90px then when screen scroll will reach 90px then I will move accordingly... */
+}
+
