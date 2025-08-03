@@ -1,0 +1,40 @@
+body{
+    
+    padding: 5%;
+    background-color: rgb(243, 227, 209);
+    
+}
+form{
+    background: #e09b9b;
+    display: grid;
+    width: 100vh;
+    color: aliceblue;
+
+    padding:50px;
+    
+
+}
+select{
+    padding: 5px;
+}
+
+button{
+    padding: 10px;
+    word-spacing: 10px;
+    display: inline-block;
+    position: static;
+}
+.fa-phone{
+    padding: 20px 20px 20px 10px ;
+    box-shadow: 2px 2px rgb(184, 119, 119);
+    
+}
+.fa-phone:hover{
+    color: rgb(159, 108, 42);
+    transition: 2ms;
+    background-color: rgb(98, 124, 124);
+    display: inline;
+    height: 9px;
+    width: 3px;
+}
+
